@@ -4,11 +4,14 @@ import {
   faLinkedin,
   faNode,
   faReact,
+  faSass,
   faSquareJs,
 } from "@fortawesome/free-brands-svg-icons";
 import styles from "./Header.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowDown } from "@fortawesome/free-solid-svg-icons";
+import Postman from "../Assets/postman.png";
+import MySQL from "../Assets/mysql.png";
 
 function Header() {
   return (
@@ -83,6 +86,26 @@ function Header() {
               <FontAwesomeIcon
                 className={`${styles["intro-right--icon__react"]}`}
                 icon={faReact}
+              />
+            </div>
+            <div className={styles["item-4"]}>
+              <FontAwesomeIcon
+                className={`${styles["intro-right--icon__sass"]}`}
+                icon={faSass}
+              />
+            </div>
+            <div className={styles["item-5"]}>
+              <img
+                src={Postman}
+                alt="Postman Logo"
+                className={`${styles["intro-right--img__postman"]}`}
+              />
+            </div>
+            <div className={styles["item-6"]}>
+              <img
+                src={MySQL}
+                alt="MySQL Logo"
+                className={`${styles["intro-right--img__mysql"]}`}
               />
             </div>
           </div>

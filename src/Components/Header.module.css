@@ -141,66 +141,92 @@
 }
 
 .container {
-  width: 30rem;
-  height: 30rem;
+  width: 35rem;
+  height: 35rem;
   margin: 10px auto;
   position: relative;
   border-radius: 50%;
-  animation: spin 30s linear infinite;
+  animation: spin 30s linear infinite 1s;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4,
+.item-5,
+.item-6 {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  animation: spin 30s linear infinite reverse 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .item-1 {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  border-radius: 50%;
-  position: absolute;
   bottom: 0;
   right: 65%;
-  animation: spin 30s linear infinite reverse;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .item-2 {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  border-radius: 50%;
-  position: absolute;
   top: 15%;
   right: -10%;
-  animation: spin 30s linear infinite reverse;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .item-3 {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  border-radius: 50%;
-  position: absolute;
   top: 0;
   left: 0;
-  animation: spin 30s linear infinite reverse;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
+.item-4 {
+  top: 50%;
+  left: 0;
+}
+.item-5 {
+  top: -20%;
+  left: 50%;
+}
+.item-6 {
+  bottom: 30%;
+  right: 20%;
+}
+
 .intro-right--icon__node {
-  font-size: 10rem;
+  font-size: 12.5rem;
+  transition: all 0.3s;
 }
 
 .intro-right--icon__javascript {
-  font-size: 10rem;
+  font-size: 12.5rem;
+  transition: all 0.3s;
 }
 
 .intro-right--icon__react {
-  font-size: 10rem;
+  font-size: 12.5rem;
+  transition: all 0.3s;
+}
+
+.intro-right--icon__react:hover,
+.intro-right--icon__node:hover,
+.intro-right--icon__javascript:hover {
+  cursor: pointer;
+  color: var(--highlight-color);
+  font-size: 13.5rem;
+}
+
+.intro-right--icon__sass {
+  font-size: 5rem;
+}
+
+.intro-right--img__postman {
+  height: 8rem;
+  width: 8rem;
+}
+
+.intro-right--img__mysql {
+  height: 6rem;
+  width: 6rem;
 }
 
 @keyframes spin {
