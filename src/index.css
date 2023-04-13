@@ -1,0 +1,48 @@
+* {
+  /* Global reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+html {
+  /* Global reset & Setting 1rem = 10px*/
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+/* Elements */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Variables */
+:root {
+  /* Colors */
+  --main-color: #fff;
+  --highlight-color: #66d9e8;
+
+  /* Horizontal margins for header, etc */
+  /* --h-margins-pc: 0 10%;
+  --h-margins-mob: 0 5%; */
+
+  /* Font Colors */
+  /* --darkest-gray: #222;
+  --dark-gray: #444;
+  --light-gray: #666; */
+
+  /* Font Sizes */
+  --regular-fontsize: 1.8rem;
+
+  /* Transitions */
+  /* --dropdown-speed: 300ms;
+  --mob-nav-li-adjust: 240px;
+  --mob-nav-li-adjust: 260px; */
+}
+
+/* Classes */
