@@ -62,7 +62,7 @@ function Header() {
             <button className={styles["intro-btns--resume"]}>
               Download Resume
               <FontAwesomeIcon
-                className={`${styles["intro-btns--resume__icon"]} ${styles["icon"]}`}
+                className={`${styles["intro-btns--resume__icon"]}`}
                 icon={faCircleArrowDown}
               />
             </button>

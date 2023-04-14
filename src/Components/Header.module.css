@@ -23,6 +23,7 @@
 }
 .top-menu--name {
   color: var(--highlight-color);
+  /* color: #ffffff; */
 
   animation: moveInLeft 1s ease-out;
 }
@@ -58,6 +59,7 @@
 .icon:hover {
   cursor: pointer;
   color: var(--highlight-color);
+  transform: translateY(-4px);
 }
 
 /* Intro */
@@ -78,6 +80,8 @@
 .intro-charge {
   font-size: 7.2rem;
   color: var(--highlight-color);
+  line-height: 7.5rem;
+  letter-spacing: 0.3rem;
 }
 
 .intro-description {
@@ -99,15 +103,12 @@
 
 .intro-btns--work,
 .intro-btns--resume {
+  font-weight: 700;
   padding: 2rem 3rem;
   border-radius: 2rem;
   border: none;
   font-size: var(--regular-fontsize);
-}
-
-.intro-btns--work:hover,
-.intro-btns--resume:hover {
-  cursor: pointer;
+  transition: all 0.3s;
 }
 
 .intro-btns--work {
@@ -116,12 +117,22 @@
   color: var(--highlight-color);
 }
 
+.intro-btns--work:hover {
+  cursor: pointer;
+  background-color: var(--highlight-color);
+  color: rgb(0, 0, 100);
+}
+
 .intro-btns--resume {
   background-color: transparent;
   color: var(--main-color);
   display: flex;
   align-items: center;
   /* transition: all 0.3s; */
+}
+.intro-btns--resume:hover {
+  cursor: pointer;
+  color: var(--highlight-color);
 }
 
 /* .intro-btns--resume:hover {
@@ -221,7 +232,7 @@
 
 .intro-right--img__postman {
   height: 8rem;
-  width: 8rem;
+  width: 10rem;
 }
 
 .intro-right--img__mysql {
