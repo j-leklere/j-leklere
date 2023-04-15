@@ -1,0 +1,55 @@
+.wrapper {
+  height: 90vh;
+  width: 92.5vw;
+  background-color: var(--main-color);
+  margin: 3rem auto;
+  border-radius: 3rem;
+  color: rgba(0, 0, 150);
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.work {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+  height: 90%;
+}
+
+.project {
+  text-align: center;
+  width: 22.5%;
+  /* height: ; */
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(0, 0, 60),
+    rgb(0, 0, 140)
+  );
+  border-radius: 3rem;
+  transition: all 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-1.5rem);
+  /* box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.6); */
+}
+
+.project-adeip--link {
+  border-radius: 3rem 3rem 0 0;
+}
+
+.project-adeip--img {
+  border-radius: 3rem 3rem 0 0;
+  height: 40%;
+  width: 100%;
+}
+
+.project h4 {
+  color: var(--highlight-color);
+}

@@ -10,6 +10,7 @@ import {
 import styles from "./Header.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowDown } from "@fortawesome/free-solid-svg-icons";
+import Git from "../Assets/GIT.png";
 import Postman from "../Assets/postman.png";
 import MySQL from "../Assets/mysql.png";
 
@@ -106,6 +107,13 @@ function Header() {
                 src={MySQL}
                 alt="MySQL Logo"
                 className={`${styles["intro-right--img__mysql"]}`}
+              />
+            </div>
+            <div className={styles["item-7"]}>
+              <img
+                src={Git}
+                alt="GIT Logo"
+                className={`${styles["intro-right--img__git"]}`}
               />
             </div>
           </div>

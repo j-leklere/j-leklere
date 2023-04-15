@@ -1,11 +1,6 @@
 /* Header */
 .header {
   height: 100vh;
-  background-image: url("../Assets/background.jpg");
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: var(--main-color);
 }
 /* Menu */
 .top-menu {
@@ -154,7 +149,7 @@
 .container {
   width: 35rem;
   height: 35rem;
-  margin: 10px auto;
+  /* margin: 10px auto; */
   position: relative;
   border-radius: 50%;
   animation: spin 30s linear infinite 1s;
@@ -165,7 +160,8 @@
 .item-3,
 .item-4,
 .item-5,
-.item-6 {
+.item-6,
+.item-7 {
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -184,7 +180,7 @@
 }
 .item-2 {
   top: 15%;
-  right: -10%;
+  right: -5%;
 }
 .item-3 {
   top: 0;
@@ -192,15 +188,19 @@
 }
 .item-4 {
   top: 50%;
-  left: 0;
+  left: -10%;
 }
 .item-5 {
-  top: -20%;
+  top: 0;
   left: 50%;
 }
 .item-6 {
   bottom: 30%;
   right: 20%;
+}
+.item-7 {
+  top: 40%;
+  left: 30%;
 }
 
 .intro-right--icon__node {
@@ -221,18 +221,23 @@
 .intro-right--icon__react:hover,
 .intro-right--icon__node:hover,
 .intro-right--icon__javascript:hover {
-  cursor: pointer;
+  /* cursor: pointer; */
   color: var(--highlight-color);
   font-size: 13.5rem;
 }
 
 .intro-right--icon__sass {
   font-size: 5rem;
+  color: #cd6799;
 }
 
 .intro-right--img__postman {
   height: 8rem;
   width: 10rem;
+}
+.intro-right--img__git {
+  height: 8rem;
+  width: 8rem;
 }
 
 .intro-right--img__mysql {
@@ -291,5 +296,65 @@
     opacity: 1;
     -webkit-transform: translate(0);
     transform: translate(0);
+  }
+}
+
+@media (max-width: 1600px) {
+  .top-menu {
+    font-size: 1.6rem;
+    padding: 5rem 7.5rem;
+  }
+
+  .intro {
+    margin-top: 6.4rem;
+    padding: 5rem 7.5rem;
+  }
+  .intro-charge {
+    font-size: 5.8rem;
+  }
+  .intro-description {
+    font-size: 1.8rem;
+  }
+  .intro-btns--resume,
+  .intro-btns--work {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    height: 28rem;
+    width: 28rem;
+  }
+  .intro-right--icon__node {
+    font-size: 8.5rem;
+  }
+  .intro-right--icon__node:hover {
+    font-size: 10.5rem;
+  }
+  .intro-right--icon__javascript {
+    font-size: 8.5rem;
+  }
+  .intro-right--icon__javascript:hover {
+    font-size: 10.5rem;
+  }
+  .intro-right--icon__react {
+    font-size: 8.5rem;
+  }
+  .intro-right--icon__react:hover {
+    font-size: 10.5rem;
+  }
+  .intro-right--icon__sass {
+    font-size: 3rem;
+  }
+  .intro-right--img__postman {
+    height: 4.5rem;
+    width: 6.5rem;
+  }
+  .intro-right--img__mysql {
+    height: 4.5rem;
+    width: 4.5rem;
+  }
+  .intro-right--img__git {
+    height: 4.5rem;
+    width: 4.5rem;
   }
 }
