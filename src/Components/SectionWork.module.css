@@ -33,23 +33,41 @@
   );
   border-radius: 3rem;
   transition: all 0.3s;
+  box-shadow: 0 0 15px rgba(50, 50, 50, 0.75);
 }
 
 .project:hover {
   transform: translateY(-1.5rem);
+  box-shadow: 0 5px 15px rgba(50, 50, 50, 0.9);
   /* box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.6); */
 }
 
-.project-adeip--link {
-  border-radius: 3rem 3rem 0 0;
+.project-link {
+  border-radius: 1rem 1rem 0 0;
+  position: relative;
+  display: inline-block;
+  /* height: 100%; */
 }
 
-.project-adeip--img {
-  border-radius: 3rem 3rem 0 0;
+.project-img {
+  border-radius: 1rem 1rem 0 0;
   height: 40%;
   width: 100%;
 }
 
+.project-link--icon {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 2rem;
+  color: #333;
+  background-color: #8f8f8fb0;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
 .project h4 {
   color: var(--highlight-color);
+  padding: 2rem 1rem;
+  font-size: var(--regular-fontsize);
 }
