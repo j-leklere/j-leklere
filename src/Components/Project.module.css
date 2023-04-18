@@ -63,7 +63,8 @@
   padding: 0 2rem;
 }
 
-.project-btn {
+/* OPTION 1 */
+/* .project-btn {
   font-size: 2rem;
   color: var(--highlight-color);
   font-weight: 700;
@@ -78,4 +79,20 @@
 .project-btn:hover {
   background-color: var(--highlight-color);
   color: rgb(0, 0, 100);
+} */
+
+/* OPTION 2 */
+.project-btn {
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px var(--highlight-color);
+  background: linear-gradient(var(--highlight-color) 0 100%) left / 0 no-repeat;
+  color: transparent;
+  background-clip: text;
+  transition: 0.3s linear;
+}
+
+.project-btn:hover {
+  background-size: 100%;
 }

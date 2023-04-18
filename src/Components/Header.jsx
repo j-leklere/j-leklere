@@ -1,7 +1,7 @@
 import {
   faGithub,
   faInstagram,
-  faLinkedin,
+  faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 import styles from "./Header.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
