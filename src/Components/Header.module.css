@@ -40,6 +40,15 @@
   text-decoration: none;
 }
 
+.top-menu--nav__btns {
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.top-menu--nav__btns:hover {
+  color: var(--highlight-color);
+}
+
 .top-menu--links {
   display: flex;
   align-items: center;
@@ -140,116 +149,6 @@
 }
 
 /* Intro Right */
-.intro-right {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.container {
-  width: 35rem;
-  height: 35rem;
-  /* margin: 10px auto; */
-  position: relative;
-  border-radius: 50%;
-  animation: spin 30s linear infinite 1s;
-}
-
-.item-1,
-.item-2,
-.item-3,
-.item-4,
-.item-5,
-.item-6,
-.item-7 {
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-  border-radius: 50%;
-  position: absolute;
-  animation: spin 30s linear infinite reverse 1s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.item-1 {
-  bottom: 0;
-  right: 65%;
-}
-.item-2 {
-  top: 15%;
-  right: -5%;
-}
-.item-3 {
-  top: 0;
-  left: 0;
-}
-.item-4 {
-  top: 50%;
-  left: -10%;
-}
-.item-5 {
-  top: 0;
-  left: 50%;
-}
-.item-6 {
-  bottom: 30%;
-  right: 20%;
-}
-.item-7 {
-  top: 40%;
-  left: 30%;
-}
-
-.intro-right--icon__node {
-  font-size: 12.5rem;
-  transition: all 0.3s;
-}
-
-.intro-right--icon__javascript {
-  font-size: 12.5rem;
-  transition: all 0.3s;
-}
-
-.intro-right--icon__react {
-  font-size: 12.5rem;
-  transition: all 0.3s;
-}
-
-.intro-right--icon__react:hover,
-.intro-right--icon__node:hover,
-.intro-right--icon__javascript:hover {
-  /* cursor: pointer; */
-  color: var(--highlight-color);
-  font-size: 13.5rem;
-}
-
-.intro-right--icon__sass {
-  font-size: 5rem;
-  color: #cd6799;
-}
-
-.intro-right--img__postman {
-  height: 8rem;
-  width: 10rem;
-}
-.intro-right--img__git {
-  height: 8rem;
-  width: 8rem;
-}
-
-.intro-right--img__mysql {
-  height: 6rem;
-  width: 6rem;
-}
-
-@keyframes spin {
-  100% {
-    transform: rotate(1turn);
-  }
-}
 
 /*  */
 @keyframes moveInLeft {
@@ -320,41 +219,4 @@
     font-size: 1.5rem;
   }
 
-  .container {
-    height: 28rem;
-    width: 28rem;
-  }
-  .intro-right--icon__node {
-    font-size: 8.5rem;
-  }
-  .intro-right--icon__node:hover {
-    font-size: 10.5rem;
-  }
-  .intro-right--icon__javascript {
-    font-size: 8.5rem;
-  }
-  .intro-right--icon__javascript:hover {
-    font-size: 10.5rem;
-  }
-  .intro-right--icon__react {
-    font-size: 8.5rem;
-  }
-  .intro-right--icon__react:hover {
-    font-size: 10.5rem;
-  }
-  .intro-right--icon__sass {
-    font-size: 3rem;
-  }
-  .intro-right--img__postman {
-    height: 4.5rem;
-    width: 6.5rem;
-  }
-  .intro-right--img__mysql {
-    height: 4.5rem;
-    width: 4.5rem;
-  }
-  .intro-right--img__git {
-    height: 4.5rem;
-    width: 4.5rem;
-  }
 }

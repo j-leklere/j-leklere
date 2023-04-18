@@ -2,17 +2,12 @@ import {
   faGithub,
   faInstagram,
   faLinkedin,
-  faNode,
-  faReact,
-  faSass,
-  faSquareJs,
 } from "@fortawesome/free-brands-svg-icons";
 import styles from "./Header.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowDown } from "@fortawesome/free-solid-svg-icons";
-import Git from "../Assets/GIT.png";
-import Postman from "../Assets/postman.png";
-import MySQL from "../Assets/mysql.png";
+
+import FloatingIcons from "./FloatingIcons";
 
 function Header() {
   return (
@@ -23,8 +18,12 @@ function Header() {
         </div>
         <div className={styles["top-menu--right"]}>
           <nav className={styles["top-menu--nav"]}>
-            <a href="/">Work</a>
-            <a href="/">Contact</a>
+            <a href="/" className={styles["top-menu--nav__btns"]}>
+              Work
+            </a>
+            <a href="/" className={styles["top-menu--nav__btns"]}>
+              Contact
+            </a>
           </nav>
           <div className={styles["top-menu--links"]}>
             <a href="https://github.com/j-leklere">
@@ -69,55 +68,7 @@ function Header() {
             </button>
           </div>
         </div>
-        <div className={styles["intro-right"]}>
-          <div className={styles["container"]}>
-            <div className={styles["item-1"]}>
-              <FontAwesomeIcon
-                className={`${styles["intro-right--icon__node"]}`}
-                icon={faNode}
-              />
-            </div>
-            <div className={styles["item-2"]}>
-              <FontAwesomeIcon
-                className={`${styles["intro-right--icon__javascript"]}`}
-                icon={faSquareJs}
-              />
-            </div>
-            <div className={styles["item-3"]}>
-              <FontAwesomeIcon
-                className={`${styles["intro-right--icon__react"]}`}
-                icon={faReact}
-              />
-            </div>
-            <div className={styles["item-4"]}>
-              <FontAwesomeIcon
-                className={`${styles["intro-right--icon__sass"]}`}
-                icon={faSass}
-              />
-            </div>
-            <div className={styles["item-5"]}>
-              <img
-                src={Postman}
-                alt="Postman Logo"
-                className={`${styles["intro-right--img__postman"]}`}
-              />
-            </div>
-            <div className={styles["item-6"]}>
-              <img
-                src={MySQL}
-                alt="MySQL Logo"
-                className={`${styles["intro-right--img__mysql"]}`}
-              />
-            </div>
-            <div className={styles["item-7"]}>
-              <img
-                src={Git}
-                alt="GIT Logo"
-                className={`${styles["intro-right--img__git"]}`}
-              />
-            </div>
-          </div>
-        </div>
+        <FloatingIcons />
       </div>
     </header>
   );
