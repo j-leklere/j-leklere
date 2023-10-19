@@ -1,221 +1,23 @@
-/* Header */
-.header {
-  height: 100vh;
-}
-/* Menu */
-.top-menu {
-  padding: 5rem;
-  max-width: 165rem;
-  margin: auto;
+.contact {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translate(-50%, 50%);
 
+  padding: 0.8rem 3rem;
+  font-size: 2.4rem;
+  background-color: #00ffd0;
+  /* background-color: #ffffff; */
+  border-radius: 10rem;
+
+  z-index: 1000;
+}
+
+.contact ul {
   display: flex;
-  justify-content: space-between;
-  font-size: var(--regular-fontsize);
+  gap: 2.8rem;
 }
 
-/* Menu Left */
-.top-menu--left {
-}
-.top-menu--name {
-  color: var(--highlight-color);
-  /* color: #ffffff; */
-
-  animation: moveInLeft 1s ease-out;
-}
-
-/* Menu Right */
-.top-menu--right {
-  display: flex;
-  height: min-content;
-
-  animation: moveInRight 1s ease-out;
-}
-
-.top-menu--nav {
-  border-right: 2px solid var(--highlight-color);
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-  padding-right: 2rem;
-  text-decoration: none;
-}
-
-.top-menu--nav__btns {
-  color: #fff;
-  transition: all 0.3s;
-}
-
-.top-menu--nav__btns:hover {
-  color: var(--highlight-color);
-}
-
-.top-menu--links {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  padding-left: 2rem;
-}
-
-.icon {
-  font-size: 2rem;
-  transition: all 0.3s;
-}
-.icon:hover {
-  cursor: pointer;
-  color: var(--highlight-color);
-  transform: translateY(-4px);
-}
-
-/* Intro */
-.intro {
-  max-width: 165rem;
-  padding: 5rem;
-  margin: auto;
-  margin-top: 8.4rem;
-  display: grid;
-  grid-template-columns: 60% 40%;
-
-  /* width: max-content; */
-
-  animation: moveInBottom 1s ease-out;
-}
-
-/* Intro Left */
-.intro-charge {
-  font-size: 7.2rem;
-  color: var(--highlight-color);
-  line-height: 7.5rem;
-  letter-spacing: 0.3rem;
-}
-
-.intro-description {
-  font-size: 2rem;
-  max-width: 75%;
-  line-height: 3rem;
-  letter-spacing: 0.1rem;
-  padding: 2.4rem 0;
-  padding-left: 0.5rem;
-}
-
-/* Buttons */
-.intro-btns {
-  display: flex;
-  gap: 3.2rem;
-  padding: 2rem 0;
-  padding-left: 5px;
-}
-
-.intro-btns--work,
-.intro-btns--resume {
-  font-weight: 700;
-  padding: 2rem 3rem;
-  border-radius: 2rem;
-  border: none;
-  font-size: var(--regular-fontsize);
-  transition: all 0.3s;
-}
-
-.intro-btns--work {
-  background-color: transparent;
-  border: 2px solid var(--highlight-color);
-  color: var(--highlight-color);
-}
-
-.intro-btns--work:hover {
-  cursor: pointer;
-  background-color: var(--highlight-color);
-  color: rgb(0, 0, 100);
-}
-
-.intro-btns--resume {
-  background-color: transparent;
-  color: var(--main-color);
-  display: flex;
-  align-items: center;
-  /* transition: all 0.3s; */
-}
-.intro-btns--resume:hover {
-  cursor: pointer;
-  color: var(--highlight-color);
-}
-
-/* .intro-btns--resume:hover {
-  color: var(--highlight-color);
-} */
-
-.intro-btns--resume__icon {
-  padding-left: 1.2rem;
-  font-size: 2.6rem;
-}
-
-/* Intro Right */
-
-/*  */
-@keyframes moveInLeft {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(-10rem);
-    transform: translateX(-10rem);
-  }
-  80% {
-    -webkit-transform: translateX(1rem);
-    transform: translateX(1rem);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translate(0);
-    transform: translate(0);
-  }
-}
-
-@keyframes moveInRight {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateX(10rem);
-    transform: translateX(10rem);
-  }
-  80% {
-    -webkit-transform: translateX(-1rem);
-    transform: translateX(-1rem);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translate(0);
-    transform: translate(0);
-  }
-}
-
-@keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(7rem);
-    transform: translateY(7rem);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translate(0);
-    transform: translate(0);
-  }
-}
-
-@media (max-width: 1600px) {
-  .top-menu {
-    font-size: 1.6rem;
-    padding: 5rem 7.5rem;
-  }
-
-  .intro {
-    margin-top: 6.4rem;
-    padding: 5rem 7.5rem;
-  }
-  .intro-charge {
-    font-size: 5.8rem;
-  }
-  .intro-description {
-    font-size: 1.8rem;
-  }
-  .intro-btns--resume,
-  .intro-btns--work {
-    font-size: 1.5rem;
-  }
+.contact ul li {
+  list-style: none;
 }

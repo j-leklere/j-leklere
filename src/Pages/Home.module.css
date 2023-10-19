@@ -1,8 +1,0 @@
-.background-image {
-  height: 200vh;
-  background-image: url("../Assets/background.jpg");
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: var(--main-color);
-}

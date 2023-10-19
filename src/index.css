@@ -2,17 +2,18 @@
   /* Global reset */
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
+  box-sizing: border-box !important;
 
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 html {
   /* Global reset & Setting 1rem = 10px*/
   font-size: 62.5%;
-  box-sizing: border-box;
+}
+
+body {
+  background-color: #171717;
 }
 
 /* Elements */
