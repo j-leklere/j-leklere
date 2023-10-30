@@ -1,0 +1,92 @@
+.skills {
+  margin-top: 6.4rem;
+  gap: 12.2rem;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  color: #ffffff;
+}
+
+.icon {
+  font-size: 13.5rem;
+  color: #00ffd0;
+}
+
+.skill-column {
+  text-align: center;
+}
+
+.heading-quaternary {
+  text-align: center;
+  font-size: 2rem;
+
+  margin: 1.8rem 0 2.8rem;
+}
+
+.skills-cards {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  padding: 1rem 2.4rem;
+  background-color: #111;
+  border-radius: 100rem;
+
+  width: 20rem;
+}
+
+.skill p {
+  font-size: 1.8rem;
+  width: 100%;
+}
+
+.skill-icon {
+  font-size: 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Icons Colors */
+
+.skill-icon_html {
+  color: #e34c26;
+}
+.skill-icon_css {
+  color: #264de4;
+}
+.skill-icon_js {
+  color: #f0db4f;
+}
+.skill-icon_react {
+  color: #7cc5d9;
+}
+.skill-icon_sass {
+  color: #cd6799;
+}
+.skill-icon_node {
+  color: #3c873a;
+}
+.skill-icon_express {
+}
+.skill-icon_mongodb {
+}
+.skill-icon_mysql {
+}
+.skill-icon_github {
+}
+.skill-icon_git {
+  color: #f1502f;
+}
+.skill-icon_postman {
+}
+.skill-icon_scrum {
+  color: #ffffff;
+}

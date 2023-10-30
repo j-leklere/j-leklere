@@ -1,0 +1,53 @@
+.card {
+  width: 100rem;
+  height: 18rem;
+  padding: 2rem;
+  background-color: #121212;
+  border-radius: 1rem;
+
+  display: flex;
+  transition: all 0.5s;
+}
+
+.card:hover {
+  transform: translate(1.4rem, -1.4rem);
+
+  box-shadow: -1.4rem 1.4rem 0rem #000000;
+}
+
+.card:hover .link {
+  color: #00ffd0;
+}
+
+.img {
+  width: 22.5rem;
+  border-radius: 1rem;
+}
+
+.info {
+  padding: 0 3.2rem;
+  color: #ffffff;
+  font-size: 1.8rem;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+
+  gap: 1.2rem;
+  margin-bottom: 2.4rem;
+
+  transform: all 0.5s;
+}
+
+.heading-quaternary {
+}
+
+.icon {
+  font-size: 1.8rem;
+}
+
+.text {
+  font-size: 1.6rem;
+}

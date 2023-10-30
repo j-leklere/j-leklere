@@ -1,0 +1,87 @@
+.contact {
+  margin-top: 7.2rem;
+  display: flex;
+  height: 60vh;
+}
+.contact-info {
+  width: 50%;
+  font-size: 2rem;
+  padding-right: 3.2rem;
+  color: #fff;
+}
+
+.contact-icons {
+  margin: 4.8rem 0;
+}
+
+.contact-icons div {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  transition: all 0.3s;
+  color: #00ffd0;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.contact-icons div:hover {
+  background-color: #00ffd0;
+  color: #000000;
+  transform: translateY(-0.5rem);
+  box-shadow: 0 0.5rem 1rem #000;
+}
+
+.contact-icon {
+  color: inherit;
+  padding-right: 1rem;
+  font-size: 2.4rem;
+}
+
+.contact-line {
+  width: 1px;
+  height: 65%;
+  background-color: #00ffd0;
+  align-self: center;
+  margin-bottom: 15rem;
+}
+.contact-form {
+  width: 50%;
+  padding-left: 3.2rem;
+}
+
+.contact-form label {
+  display: block;
+  width: 100%;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: 100%;
+  padding: 1.4rem 2rem;
+  margin: 0.5rem 0;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.8rem;
+  background-color: #111;
+}
+
+.contact-form textarea {
+  padding: 1.4rem 2rem 7.2rem;
+}
+
+.contact-form button {
+  font-size: 2rem;
+  margin-top: 2.4rem;
+  font-weight: 700;
+  color: #171717;
+  background-color: #00ffd0;
+  border: 1px solid #00ffd0;
+  transition: all 0.3s;
+}
+
+.contact-form button:hover {
+  cursor: pointer;
+  background-color: #171717;
+  color: #00ffd0;
+}

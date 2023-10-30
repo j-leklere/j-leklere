@@ -1,0 +1,12 @@
+.header-tertiary {
+  color: #00ffd0;
+  font-weight: 700;
+  /* font-weight: 900; */
+  font-size: 1.5rem;
+}
+
+.header-secondary {
+  color: #fff;
+  font-size: 3rem;
+  margin-top: 1rem;
+}

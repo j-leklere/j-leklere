@@ -14,7 +14,7 @@ function Header() {
           <li>
             <a href="https://github.com/j-leklere">
               <FontAwesomeIcon
-                className={`${styles["top-menu--links__icon"]} ${styles["icon"]}`}
+                className={`${styles["top-menu--links__icon"]} ${styles["icon"]} ${styles["bounce"]}`}
                 icon={faGithub}
               />
             </a>
@@ -22,7 +22,7 @@ function Header() {
           <li>
             <a href="https://www.linkedin.com/in/joaquin-leklere">
               <FontAwesomeIcon
-                className={`${styles["top-menu--links__icon"]} ${styles["icon"]}`}
+                className={`${styles["top-menu--links__icon"]} ${styles["icon"]} ${styles["bounce"]}`}
                 icon={faLinkedin}
               />
             </a>
@@ -30,7 +30,7 @@ function Header() {
           <li>
             <a href="https://www.instagram.com/joacoleklere_">
               <FontAwesomeIcon
-                className={`${styles["top-menu--links__icon"]} ${styles["icon"]}`}
+                className={`${styles["top-menu--links__icon"]} ${styles["icon"]} ${styles["bounce"]}`}
                 icon={faInstagram}
               />
             </a>

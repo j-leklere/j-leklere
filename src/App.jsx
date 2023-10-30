@@ -1,13 +1,19 @@
-import Intro from "./Components/Intro";
-import Skills from "./Components/Skills";
-// import Footer from "./Components/Footer";
+import Intro from "./Sections/Intro";
+import AboutMe from "./Sections/AboutMe";
+import Skills from "./Sections/Skills";
+import Projects from "./Sections/Projects";
+import Contact from "./Sections/Contact";
+import Footer from "./Sections/Footer";
 
 function App() {
   return (
     <>
       <Intro />
+      <AboutMe />
       <Skills />
-      {/* <Footer /> */}
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }

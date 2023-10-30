@@ -13,13 +13,19 @@ html {
 }
 
 body {
-  background-color: #171717;
+  background-color: #191919;
 }
 
 /* Elements */
 a {
   text-decoration: none;
   color: inherit;
+}
+
+section {
+  height: 100vh;
+  padding: 7.2rem 0;
+  margin: 0 25%;
 }
 
 /* Variables */

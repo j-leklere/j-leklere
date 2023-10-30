@@ -1,14 +1,14 @@
 import styles from "./Intro.module.css";
 
-import Header from "./Header";
-import Hero from "./Hero";
+import Header from "../Components/Header";
+import Hero from "../Components/Hero";
 
 function Intro() {
   return (
-    <section className={styles.intro}>
+    <div className={styles.intro}>
       <Header />
       <Hero />
-    </section>
+    </div>
   );
 }
 

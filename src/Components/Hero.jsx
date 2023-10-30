@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Hero.module.css";
+import Btn from "./Btn";
 // import { faPaperPlane, faDownload } from "@fortawesome/free-brands-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -25,15 +26,8 @@ function Hero() {
           </p>
         </div>
         <div className={styles.contact}>
-          <div className={styles["contact-btn"]}>
-            <p>Download CV</p>
-            {/* <FontAwesomeIcon icon={faPaperPlane} /> */}
-          </div>
-          <div></div>
-          <div className={styles["contact-btn"]}>
-            <p>Contact me</p>
-            {/* <FontAwesomeIcon icon={faDownload} /> */}
-          </div>
+          <Btn title="Download CV" />
+          <Btn title="Contact Me" href="#contact" />
         </div>
       </div>
     </div>

@@ -21,3 +21,23 @@
 .contact ul li {
   list-style: none;
 }
+
+.bounce:hover {
+  animation: bounce 1s ease;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  40%,
+  70%,
+  100% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-0.8rem);
+  }
+  50% {
+    transform: translateY(-0.4rem);
+  }
+}
