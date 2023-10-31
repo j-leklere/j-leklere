@@ -5,7 +5,6 @@
 .course-title2 {
   position: absolute;
   right: calc(50% + 7.3rem + 6rem);
-  top: 22%;
   transform: translateY(-50%);
   color: #ffffff;
   font-size: 2rem;
@@ -18,14 +17,12 @@
   height: 4rem;
   position: absolute;
   right: calc(50% + 7.3rem);
-  top: 22%;
   transform: translateY(-50%);
 }
 
 .circle2-line {
   position: absolute;
   right: 50%;
-  top: 22%;
   background-color: #ffffff;
   width: 7.3rem;
   height: 2px;
@@ -34,14 +31,13 @@
 
 .course-info2 {
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 1.8rem;
   display: flex;
   align-items: center;
   gap: 2rem;
   width: 50rem;
 
   position: absolute;
-  top: calc(22% + 3.6rem);
   right: calc(50% + 7.3rem);
 }
 

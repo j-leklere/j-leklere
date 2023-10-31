@@ -5,6 +5,7 @@ import {
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Sling as Hamburger } from "hamburger-react";
 
 function Header() {
   return (
@@ -37,6 +38,7 @@ function Header() {
           </li>
         </ul>
       </nav>
+      <Hamburger color="#FFF" />
     </header>
   );
 }
