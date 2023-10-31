@@ -1,4 +1,4 @@
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import styles from "./Contact.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
@@ -60,7 +60,9 @@ function Contact() {
             <label htmlFor="message">
               <textarea type="text" name="message" placeholder="Message" />
             </label>
-            <button>Send</button>
+            <button>
+              Send <FontAwesomeIcon icon={faPaperPlane} />
+            </button>
           </form>
         </div>
       </div>

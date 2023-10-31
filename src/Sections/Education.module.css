@@ -1,0 +1,86 @@
+.section-education {
+  margin: 0 20%;
+  position: relative;
+}
+
+.line {
+  position: absolute;
+  width: 1px;
+  height: 80vh;
+  background-color: #ffffff;
+  left: 50%;
+  top: 58.5%;
+  transform: translate(-50%, -50%);
+}
+
+.year2021,
+.year2022,
+.year2023 {
+  color: #fff;
+  background-color: #191919;
+  border-radius: 10rem;
+  border: 1px solid #ffffff;
+  padding: 0.8rem 2.6rem;
+  font-size: 2rem;
+  display: inline;
+
+  position: absolute;
+  transform: translate(50%, -50%);
+  right: 50%;
+  z-index: 1000;
+}
+
+.year2021 {
+  top: 30%;
+}
+.year2022 {
+  top: 60%;
+}
+.year2023 {
+  top: 75%;
+}
+
+.courses {
+  margin-top: 8.6rem;
+}
+
+.course-title {
+  font-size: 2.4rem;
+  color: #ffffff;
+  margin-bottom: 1.4rem;
+  position: relative;
+}
+
+.circle {
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+  right: 3rem;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle div {
+  position: absolute;
+  right: -10.9rem;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  width: 7.3rem;
+  height: 2px;
+}
+
+.course-info {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 2rem;
+  gap: 2rem;
+}
+
+.course-info img {
+  border-radius: 1rem;
+  width: 20rem;
+}
